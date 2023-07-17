@@ -12,11 +12,15 @@ public class User extends Facebook {
 	void dp() {
 		System.out.println("my dp is mountains");
     }
+	public void gitbranch() {
+System.out.println("karuna branch code");
+	}
 	public static void main(String args[]) {
 		User u=new User();
 		u.userName();
 		u.password();
 		u.dp();
+		u.gitbranch();
 		
 	}
 	
